@@ -26,7 +26,7 @@ function result() {
   
   // here we call replace twice to replace ':insertx'
   // with 'xItem' because each call replace exactly on occurene of ':insertx'
-  // and we have two of them 'newStory'.
+  // and we have two of them in 'newStory'.
   newStory = newStory.replace(':insertx:', xItem);
   newStory = newStory.replace(':insertx:', xItem);
   newStory = newStory.replace(':inserty:', yItem);
