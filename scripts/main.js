@@ -3,7 +3,8 @@ var randomize = document.querySelector('.randomize');
 var story = document.querySelector('.story');
 
 function randomValueFromArray(array){
-  return array[Math.floor(Math.random()*array.length)];
+  var randomIndex = Math.floor(Math.random()*array.length);
+  return array[randomIndex];
 }
 
 var storyText = 'It was 94 farenheit outside, so :insertx: went for a walk.' +
